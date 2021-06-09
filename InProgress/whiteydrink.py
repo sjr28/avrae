@@ -1,4 +1,4 @@
-!alias orc-relentless embed
+!alias whiteydrink embed
 <drac2>
 #Define variables for later use
 cc = "Relentless Endurance"

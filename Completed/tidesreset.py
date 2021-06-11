@@ -13,7 +13,7 @@ if '%1%' == 'reset':
 	return f'''embed -title "Tides of Chaos reset!" -desc "Counter manually reset" '''
 elif theRoll==1:
 	character().set_cc(cc,0)
-	return f'''embed -title "Tides of Chaos reset!" -desc "{name} rolled a {theRoll} on a {currentDie}. Run !wmsurge tides now." '''
+	return f'''embed -title "Tides of Chaos reset!" -desc "{name} rolled a {theRoll} on a {currentDie}. Run !wmsurge tide now." '''
 else:
 	tryCounter+=1
 	character().mod_cc(cc,+1)

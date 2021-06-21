@@ -1,6 +1,6 @@
 <drac2>
 uses = int('%1%') if '%1%'.isdigit() else 0
-lvl = int("%1%")+2 if '%1%'.isdigit() else 0
+lvl = int("%1%") if '%1%'.isdigit() else 0
 cc = "Wand of Sleep"
 character().create_cc_nx(cc, 0, 5, 'long', 'bubble', reset_by='1d4+1')
 character().set_cvar_nx('wsleep_intact',"True")

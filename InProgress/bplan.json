@@ -1,0 +1,28 @@
+/*
+{
+	"<bplan Name>": [
+		"!init add 20 DM -p",
+		"!i madd <Monster> -note \"Token: <token short code> | Location: <Grid Location>\" <Other Modifiers>",
+		"!i effect DM map -attack \"||Size: <size> ~ Background: <url link> ~ Options: <options> ~ Objects: <object> ~ Walls: <wall>\""
+	]
+}
+*/
+
+
+.uvar Battles
+
+{
+	"Ambush":[
+		"!init add 20 DM -p",
+		"!i madd goblin -note \"Location: b2 | Size: M | Color: r | Token: wtstw\"",
+		"!i effect DM map -attack \"||Size: 26x14 ~ Background: https://i.imgur.com/O2tMCFC.jpg ~ Options: dc60\""
+	],
+	"You Should Run":[
+		"!init add 20 DM -p",
+		"!i madd 'Kruthik Hive Lord' -note \"Location: f5 | Size: L | Color: r | Token: 72tpc\"",
+		"!i madd 'Kruthik Hive Lord' -note \"Location: m10 | Size: L | Color: r | Token: 72tpc\"",
+		"!i madd 'Kruthik Hive Lord' -note \"Location: q3 | Size: L | Color: r | Token: 72tpc\"",
+		"!i madd 'Kruthik Hive Lord' -note \"Location: u12 | Size: L | Color: r | Token: 72tpc\"",
+		"!i effect DM map -attack \"||Size: 26x14 ~ Background: https://i.imgur.com/z3vLqEQ.jpg ~ Options: dc60\""
+    ]
+}

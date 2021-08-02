@@ -19,7 +19,7 @@ if '%1%' == 'reset':
 elif wsleep_intact == "False":
 	return f'''embed -title "{name}'s {cc} is nowhere to be found!" -desc "Did someone accidentally disintegrate their magic item? Tsk tsk. If you found another one, try `!wsleep reset`"'''
 elif lvl==0:
-	return f'''embed -title "{name} quickly reads the instructions for their {cc}!" -desc "`!wsleep [charges used] [-t target(s)]`" '''
+	return f'''embed -title "{name} quickly reads the instructions for their {cc}!" -desc "`!wsleep [charges used]`" '''
 elif v:
 	character().mod_cc(cc, -uses)
 	if character().get_cc(cc)==0:
@@ -36,4 +36,4 @@ else:
 </drac2>
 -f "{{cc}}{{f" (-{uses})" if v else ""}}|{{character().cc_str(cc)}}" 
 -thumb https://static.wikia.nocookie.net/dnd-campaign/images/7/74/Wax_wand.png/revision/latest/scale-to-width-down/680?cb=20171115033506
--footer "!wsleep [charges used] [-t target(s)]"
+-footer "!wsleep [charges used]"

@@ -1,0 +1,9 @@
+.alias lifecast {{a,c=&ARGS&,combat()}}{{H=not a or 'help' in a or '?' in a}}{{'embed' if H else  'cast'}} %1% -l &2& -d -(2+&2&) 
+{{H or (f'max -f "Supreme Healing|When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die."' if int(get('ClericLevel',0))>16 else '')}}
+{{' '.join([(f'"{i}"' if ' ' in i else i) for i in &ARGS&[2:]])}}
+{{T,t=[c.get_combatant(x)or c.get_group(x)for x in a[2:]if a[a.index(x)-1]=='-t' and c and c.me],[]}}
+{{[t.append(i)if'c'in i.type else[t.append(e)for e in i.combatants]for i in T if i]}}
+{{self=sum([1 if x.name==c.me.name else -1 for x in t])>=1}}
+{{H or mod_hp(2+int('&2&'),0) or f'-f "Blessed Healer|When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell\'s level.\n<{name}>: {hp_str()} (+{2+int("&2&")})"' if int(get('ClericLevel',0))>5 and not self else ''}}
+{{H or f'-f "Disciple of Life|Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell\'s level."'}}
+{{not H or """-title "Help for casting as a Life Cleric" -desc '`!lifecast <\"spell name\"> <level> [args]`\n\nCasts healing spells, granting appropriate bonuses for a Life Domain Cleric.\nApplies Disciple of Life, Blessed Healer, and/or Supreme healing depending on your `ClericLevel`\nYou can use any args or snippets you would normally use on spells (see `!help cast`)\n\n**Example**\n`!lifecast \"Cure Wounds\" 9 -d 10` to cast `Cure Wounds` at `9`th level with an extra 10 healing' """}}

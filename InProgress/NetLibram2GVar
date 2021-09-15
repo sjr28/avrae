@@ -1,0 +1,924 @@
+0001 1d10 of caster's fingers turn to stone
+0002 1d100 bees swarm harmlessly around the caster for several weeks 
+0003 1d100 sparkling motes dance about the caster's head until dawn 
+0004 1d100% of caster's body turns to iron for that many rounds
+0005 1d12 ducklings identify the caster as their mother
+0006 1d4 of caster's fingers move from his left hand to his right hand 
+0007 1d4 of caster's limbs are as durable as steel
+0008 1d4 of caster's limbs are covered in fish scales
+0009 1d4 of caster's limbs are invisible
+0010 1d8 of caster's primary orifices seal shut
+0011 3d10 harmless lumps as big as walnuts cover the caster's body 
+0012 3d10 quarts of olive oil pour from caster's ears
+0013 4d6 non-functioning eyes appear on the caster's face and head 
+0014 A 100 yard radius around caster's home is stripped of vegetation 
+0015 A 2d6 foot radius around caster sinks as many feet into the earth 
+0016 A basement's been installed in caster's home while he's been away 
+0017 A close friend of the caster is an assassin hired to kill him
+0018 A distant but powerful army declares war on the caster
+0019 A drop of the caster's blood can purify 1d4 gallons of water
+0020 A family of skunks has taken up residence in the caster's home 
+0021 A fast-growing oak sprouts beneath the caster's home
+0022 A foot-long steel bar runs completely through the caster's thigh 
+0023 A geyser temporarily erupts from one of the caster's pockets
+0024 A glowing orb hovers over caster's head while he's invisible
+0025 A great wind blows the caster 1d100 yards in a random direction 
+0026 A group of necromancers take an interest in the caster's skeleton 
+0027 A group of scholars think the caster's a visitor from the future
+0028 A hen's egg tumbles out of each of the caster's ears
+0029 A huge balloon shaped like the caster drifts past overhead
+0030 A kill-on-sight order has been issued for the caster kingdom-wide 
+0031 A large haystack falls from the sky onto caster
+0032 A large oak sprouts from one of the caster's pockets
+0033 A length of chain now runs completely through the caster's torso 
+0034 A life-sized statue of caster appears nearby, made of cheese
+0035 A magical blast detonates at caster's location, but he's unharmed 
+0036 A mound of snow falls onto caster and buries him up to his chest 
+0037 A page falls out of caster's spellbook each time it's opened
+0038 A skeleton mimics caster, exactly duplicating his movements
+0039 A small fountain wells up in the caster's home
+0040 A strong net falls from the sky and entangles the caster
+0041 A swirl of rainbows accompanies any spell cast by caster
+0042 A tornado picks caster up and deposits him atop the nearest house 
+0043 After a horrifying tragedy, caster squanders the world's goodwill 
+0044 After each spell, a lighted cigar appears in caster's mouth
+0045 After each spell, a pebble falls from each of caster's ears
+0046 After each spell, ants seem to course from the caster's eyes
+0047 After each spell, caster accuses someone nearby of impropriety 
+0048 After each spell, caster appears astonishingly ugly for 1d4 turns 
+0049 After each spell, caster appears to be decomposing
+0050 After each spell, caster appears to be made of pure ice
+0051 After each spell, caster appears to be utterly insane
+0052 After each spell, caster applauds himself
+0053 After each spell, caster begs someone nearby not to kill him
+0054 After each spell, caster berates someone standing nearby
+0055 After each spell, caster briefly appears to be a rotting corpse
+0056 After each spell, caster briefly appears to be on fire
+0057 After each spell, caster briefly appears to bleed from his eyes
+0058 After each spell, caster briefly looks like a photo negative
+0059 After each spell, caster briefly seems to be of the opposite sex 
+0060 After each spell, caster briefly sees fire all around him
+0061 After each spell, caster briefly thinks that he's choking
+0062 After each spell, caster can sense secret doors for 1d4 rounds 
+0063 After each spell, caster can't be magically healed for one hour 
+0064 After each spell, caster can't traverse a doorway for 1d10 rounds 
+0065 After each spell, caster dances like a honeybee
+0066 After each spell, caster experiences a burning sensation
+0067 After each spell, caster feels ants crawling all over him
+0068 After each spell, caster feels compelled to wash his hands
+0069 After each spell, caster feels completely alone and isolated
+0070 After each spell, caster feels distractingly hungry
+0071 After each spell, caster feels overwhelmingly dizzy
+0072 After each spell, caster feels transcendent euphoria
+0073 After each spell, caster forgets everyone's name for one hour 
+0074 After each spell, caster forgets his name for one hour
+0075 After each spell, caster glows with infernal radiance
+0076 After each spell, caster growls like a rabid dog
+0077 After each spell, caster has a brief vision of some distant land 
+0078 After each spell, caster has a strong craving for twigs and bark 
+0079 After each spell, caster is 5% likely to be stricken mute
+0080 After each spell, caster is 25% likely to turn briefly invisible
+0081 After each spell, caster is 30% likely to lose his balance
+0082 After each spell, caster is 60% likely to flap his arms
+0083 After each spell, caster is afraid of his own name
+0084 After each spell, caster is as hairy as an ape for one hour
+0085 After each spell, caster is base AC zero for 1d4 rounds
+0086 After each spell, caster is bathed in an otherworldly green light 
+0087 After each spell, caster is blind in one eye for one hour
+0088 After each spell, caster is grief-stricken for 1d10 rounds
+0089 After each spell, caster is hopelessly drunk for 1d4 rounds
+0090 After each spell, caster is immune to bludgeons for 1d4 rounds 
+0091 After each spell, caster is immune to missile fire for one round 
+0092 After each spell, caster is intensely magnetic for 1d8 rounds 
+0093 After each spell, caster is matte black for 1d4 rounds
+0094 After each spell, caster is suddenly facing True North
+0095 After each spell, caster is wracked by existential horror
+0096 After each spell, caster looks like a cadaver for 1d4 rounds
+0097 After each spell, caster makes short, barking cries
+0098 After each spell, caster oozes sweet-smelling oil for 1d4 rounds 
+0099 After each spell, caster polymorphs very briefly
+0100 After each spell, caster reeks of alcohol for 2d6 rounds
+0101 After each spell, caster salivates copiously
+0102 After each spell, caster seems withdrawn and despondent
+0103 After each spell, caster shakes like a rag doll for 2d4 seconds 
+0104 After each spell, caster shivers uncontrollably for 1d4 rounds 
+0105 After each spell, caster shrinks by 10d10% for 1d4 rounds
+0106 After each spell, caster shrinks by 50%
+0107 After each spell, caster smells strongly of turpentine
+0108 After each spell, caster suffers brief visions of carnage
+0109 After each spell, caster suffers disorienting vertigo
+0110 After each spell, caster thinks that he's drowning
+0111 After each spell, caster thinks that his clothes are on fire
+0112 After each spell, caster trumpets like an elephant
+0113 After each spell, caster vanishes very briefly vanishes
+0114 After each spell, caster's clothes age 1d100 years
+0115 After each spell, caster's clothes billow with green smoke 
+0116 After each spell, caster's eyes briefly double in size
+0117 After each spell, caster's face looks 50 years older
+0118 After each spell, caster's feet are covered with ash
+0119 After each spell, caster's hair grows two inches
+0120 After each spell, caster's hands display classic stigmata
+0121 After each spell, caster's hands steam wildly
+0122 After each spell, caster's head turns 360° at the neck, unharmed 
+0123 After each spell, caster's head turns invisible for 1d4 rounds
+0124 After each spell, caster's heart pounds audibly
+0125 After each spell, caster's left arm turns to stone for one hour
+0126 After each spell, caster's spellbook throbs with deep red light
+0127 After each spell, caster's Strength is halved for one hour
+0128 After each spell, gravity briefly doubles for the caster
+0129 After each spell, he giggles for 1d4-1 rounds
+0130 After each spell, light shines from caster's mouth for 1d6 rounds 
+0131 After each spell, small lumps of ice fall from caster's nostrils
+0132 After each spell, smoke hangs in the air about the caster
+0133 After each spell, stones near the caster glisten with slime
+0134 After each spell, sunlight is painful to caster for 1d4 rounds
+0135 Alcohol has no effect upon the caster, but cheese is intoxicating 
+0136 All holy symbols within 100 yards bear the caster's image
+0137 All of caster's clothing is colored safety orange
+0138 All of caster's clothing is permanently moist
+0139 All of caster's enemies with 100 yards vanish until dawn
+0140 All of caster's fingers are as long as his middle finger
+0141 All of caster's fingers are clear like glass
+0142 All of caster's fingers double in thickness
+0143 All of caster's fingers migrate to one hand
+0144 All of caster's monetary wealth appears atop the nearest mountain 
+0145 All of caster's monetary wealth is revealed to be counterfeit
+0146 All of caster's possessions age 1d1000 years
+0147 All of caster's possessions are thrown 4d6 hours into the future 
+0148 All of caster's possessions have been seized by the government 
+0149 All trees within 100 yards form into a tight circle around caster 
+0150 All undead within 1d4 miles blame the caster for their undeath 
+0151 All undead within 1d4 miles race to the caster's current location 
+0152 All vegetation now within 10 miles is highly toxic to caster
+0153 All vegetation now within 100 yards is invisible to caster
+0154 All who meet caster are 50% likely to think he smells like manure 
+0155 All who meet caster are 60% likely to think he's a lycanthrope
+0156 All who meet caster are 60% likely to think he's undead
+0157 All within 10 yards of caster are sprayed with viscous ectoplasm 
+0158 All within 10 yards of caster attack him for 1d4 rounds
+0159 Alternating pages of caster's spellbook are indestructible
+0160 An accurate illusion of caster copies his movements one mile away 
+0161 An illusory statue of the caster stands at this spot for one year 
+0162 An image of caster's beating heart hovers in the nearest doorway 
+0163 An image of the caster's head hovers over his actual head
+0164 An image the of caster's beating heart hovers over his head
+0165 Any Abjurations currently affecting the caster are Dispelled
+0166 Any armor that the caster is wearing right now shrinks by 80% 
+0167 Any armor that the caster is wearing right now vanishes forever 
+0168 Any arrow striking the caster disintegrates in 1d4 rounds
+0169 Any arrow striking the caster inflicts equal damage on its archer 
+0170 Any attack-based spell cast by caster is 10% likely to affect him 
+0171 Any attack-based spell cast by caster is delayed 1d4 rounds
+0172 Any attempt to change shape locks the caster into that new shape 
+0173 Any attempt to change shape makes the caster forget his true form 
+0174 Any attempt to change shape will age the caster 1d10 years
+0175 Any attempt to change shape will be only partially successful
+0176 Any attempt to change shape will cause the caster to take root 
+0177 Any attempt to change shape will leave his feet unchanged
+0178 Any attempt to change shape will make the caster bald forever 
+0179 Any attempt to change shape will render the caster genderless
+0180 Any attempt to change shape will shrink the caster by 2d10%
+0181 Any attempt to change shape will teleport the caster 1d1000 miles 
+0182 Any attempt to change shape will teleport the caster to this spot 
+0183 Any attempt to change shape will turn him into 2d12 ducklings 
+0184 Any attempt to change shape will turn the caster inside-out
+0185 Any attempt to change shape will turn the caster into a geranium 
+0186 Any attempt to change shape will turn the caster into a monkey 
+0187 Any attempt to change shape will turn the caster into a pelican 
+0188 Any attempt to change shape will turn the caster into a penguin 
+0189 Any attempt to change shape will turn the caster into a rabbit
+0190 Any attempt to change shape will turn the caster into a shrubbery 
+0191 Any attempt to change shape will turn the caster into a snowman 
+0192 Any attempt to change shape will turn the caster into a toddler 
+0193 Any attempt to change shape will turn the caster into a troll
+0194 Any attempt to change shape will turn the caster into a wax dummy 
+0195 Any attempt to read caster's mind reveals a homicidal maniac
+0196 Any attempt to read caster's mind reveals an absolute void
+0197 Any attempt to use rope inspires the caster to hang himself
+0198 Any attempt to use rope leaves caster hopelessly entangled
+0199 Any attempt to use rope leaves hideous welts on the caster's body 
+0200 Any blade that has drawn the caster's blood is invisible to him
+0201 Any bread that caster bakes remains warm until it's eaten
+0202 Any building that the caster enters appears to catch fire
+0203 Any building that the caster enters ejects him forcefully
+0204 Any clothing worn by caster is invisible to him while he wears it 
+0205 Any clothing worn by caster smells like carrion while he wears it 
+0206 Any coins in caster's possession are gold-plated
+0207 Any coins in caster's possession become copper pieces
+0208 Any coins now carried by caster are water-soluble for 1d4 weeks 
+0209 Any coins now carried by caster ignite and burn like tinder
+0210 Any creature Summoned by caster emerges from his mouth
+0211 Any creatures Summoned near caster are invisible to him
+0212 Any creatures Summoned near caster immediately befriend him 
+0213 Any damage against caster is rolled twice, using the higher roll 
+0214 Any damage against caster is rolled twice, using the lower roll 
+0215 Any electricity-based magic used by caster discharges on him 
+0216 Any electricity-based magic used by caster reeks of ozone
+0217 Any fire extinguished by caster rekindles itself 1d4 turns later
+0218 Any fire-based spell used by caster has only 25% of normal range 
+0219 Any fires set by caster are invisible for 2d6 hours
+0220 Any fires set by caster attract undead like moths to a candle
+0221 Any fires set by caster jingle like wind chimes while they burn
+0222 Any fires set by caster make those near it appear to be undead 
+0223 Any fires set by caster produce no heat
+0224 Any fires set by caster produce no smoke
+0225 Any fires set by caster whisper vague threats against him
+0226 Any food now carried by caster combusts
+0227 Any food now carried by caster is 10X as nutritious
+0228 Any food now carried by caster is fused into glass
+0229 Any food now carried by caster is sealed in airtight tin cans
+0230 Any food now carried by caster is toxic to Dwarves
+0231 Any food now carried by caster smells like carrion
+0232 Any food now carried by caster turns to ice
+0233 Any food now carried by caster turns to iron
+0234 Any food now carried by caster turns to spun sugar
+0235 Any gems in caster's possession are replaced by lumps of gelatin 
+0236 Any hammer thrown by caster returns to his hand one round later 
+0237 Any horse ridden by caster suffers no fatigue while he rides it
+0238 Any intelligent weapons now carried by caster hate him forever 
+0239 Any intelligent weapons seen by caster look vaguely familiar
+0240 Any magic currently affecting the caster is Dispelled
+0241 Any magic currently affecting the caster is suppressed until dawn 
+0242 Any magic items owned by caster appear in a heap nearby
+0243 Any magic items owned by caster are non-functional for 1d10 days 
+0244 Any magical scrolls now carried by caster are fireproof
+0245 Any magical scrolls now carried by caster are forgeries
+0246 Any magical scrolls now carried by caster are subtly tainted
+0247 Any magical scrolls now carried by caster discharge spontaneously 
+0248 Any magical scrolls now carried by caster turn to steel
+0249 Any metal object carried by caster is 90% transparent
+0250 Any metal object carried by caster seems 10x its normal weight 
+0251 Any metal that caster is carrying turns to liquid like mercury
+0252 Any missile fired at caster is 10% likely to explode when it hits
+0253 Any missile fired at caster is at a -3 penalty to hit him
+0254 Any missile fired by caster is 10% likely to vanish in flight
+0255 Any missile shot by caster is destroyed by lightning mid-flight
+0256 Any missile striking caster is 10% likely to be just an illusion
+0257 Any mountain more than one mile from caster is invisible to him 
+0258 Any ranged spell used by caster seems to issue from his eyes
+0259 Any ranged spell used by caster seems to issue from someone else 
+0260 Any rope currently carried by caster doubles in length
+0261 Any rope currently carried by caster turns to braided gold wire
+0262 Any rope that caster is now carrying becomes frictionless
+0263 Any rope that caster is now carrying is soaked with lamp oil
+0264 Any shield held by caster appears to be made of Swiss cheese 
+0265 Any shield held by caster appears to weigh 100 pounds
+0266 Any shield held by caster gains a +1 bonus while he holds it
+0267 Any shield held by caster is ethereal in the presence of weapons 
+0268 Any shield held by caster is impervious to magical fire
+0269 Any spells cast by caster are accompanied by twinkling lights
+0270 Any spells cast by caster upon himself have an undesirable effect 
+0271 Any spells cast by caster upon himself lapse after one round
+0272 Any spells cast by caster within the last hour are negated
+0273 Any spells caster now has memorized will fail when he casts them 
+0274 Any undead in the area attack the caster but ignore everyone else 
+0275 Any undead in the area flee from the caster for 2d10 rounds
+0276 Any wood within 25 yards flies toward the caster for 1d10 rounds 
+0277 Any writing implement used by caster breaks, runs dry, etc.
+0278 Anyone attempting to rob caster must tell him about it beforehand 
+0279 Anyone drinking a potion near caster looks like him until sunset 
+0280 Anyone drinking a potion shrinks by 50% for its duration
+0281 Anyone in caster's presence can't employ Direction Sense
+0282 Anyone in caster's presence thinks that he represents True North 
+0283 Anyone related to caster by blood is invisible to him
+0284 Anyone slain by caster becomes invisible upon death
+0285 Anyone trying to pick caster's pocket shrinks by 50%
+0286 Anyone trying to scry the caster's whereabouts sees this location 
+0287 Anyone voluntarily struck by caster's magic resents him for it
+0288 Anyone who knows caster's name gives him an offensive nickname 
+0289 Anyone who looks deep into caster's mouth risks insanity
+0290 Anything caster drinks is 50% likely to fall from his mouth
+0291 Anything written by caster appears as gibberish to everyone else 
+0292 Artifacts react unpredictably when caster attempts to use them 
+0293 Before each spell, caster must address someone who isn't there 
+0294 Before each spell, caster must anoint his head with water
+0295 Before each spell, caster must bark like a dog for 2d6 seconds 
+0296 Before each spell, caster must bite a gold coin
+0297 Before each spell, caster must blaspheme some god of chaos
+0298 Before each spell, caster must claim that his shoes are too tight 
+0299 Before each spell, caster must claim to be invincible
+0300 Before each spell, caster must clear his throat loudly
+0301 Before each spell, caster must confess an embarrassing secret 
+0302 Before each spell, caster must confess that he's a charlatan
+0303 Before each spell, caster must crack his knuckles
+0304 Before each spell, caster must drop a gold coin to the ground
+0305 Before each spell, caster must give himself permission to cast it 
+0306 Before each spell, caster must hold his breath for 1d10 seconds 
+0307 Before each spell, caster must ingest a pinch of dust
+0308 Before each spell, caster must insult a close friend
+0309 Before each spell, caster must invoke some monstrous entity
+0310 Before each spell, caster must issue what sounds like a prophecy 
+0311 Before each spell, caster must light a small candle
+0312 Before each spell, caster must make a new and improbable vow 
+0313 Before each spell, caster must make an embarrassing admission 
+0314 Before each spell, caster must pat himself on the head
+0315 Before each spell, caster must pluck 1d6 hairs from his head 
+0316 Before each spell, caster must predict that he'll die by sunset 
+0317 Before each spell, caster must prick his finger with a rusty pin 
+0318 Before each spell, caster must profess a thirst for human blood 
+0319 Before each spell, caster must profess love for someone nearby 
+0320 Before each spell, caster must promise to change his name 
+0321 Before each spell, caster must remove one article of clothing 
+0322 Before each spell, caster must say "Magic is my business." 
+0323 Before each spell, caster must say "My God, it's full of stars." 
+0324 Before each spell, caster must say "The prophecy is fulfilled." 
+0325 Before each spell, caster must say "This probably won't work." 
+0326 Before each spell, caster must shed at least 1d4 tears
+0327 Before each spell, caster must shout a different prime number 
+0328 Before each spell, caster must snap a twig or the like
+0329 Before each spell, caster must speak a new and original rhyme 
+0330 Before each spell, caster must speak a new and relevant pun 
+0331 Before each spell, caster must speak ill of a good friend
+0332 Before each spell, caster must tear one article of clothing
+0333 Before each spell, caster must tie a knot in a piece of string
+0334 Before each spell, caster must touch his eyes, ears, and nose 
+0335 Before each spell, caster must touch liquid water
+0336 Before each spell, caster must trace a circle in the air
+0337 Before each spell, caster must vow that this is his final spell
+0338 Beneficial magic potions have an opposite effect upon the caster 
+0339 Bits of flesh fall from caster's body until he's a bare skeleton
+0340 Blades seem extraordinarily dull while caster wields them
+0341 Caster accidentally creates a virulent plague in his workshop
+0342 Caster accuses his nearest ally of murdering him
+0343 Caster acquires an exact copy of every non-magical thing he owns 
+0344 Caster acquires lycanthropy, but only in his left leg
+0345 Caster acquires proficiency in some weapon that will never exist 
+0346 Caster addresses everyone he knows by his own name
+0347 Caster adopts a habit of nightly self-flagellation
+0348 Caster adopts a universally obscene gesture as his trademark 
+0349 Caster adopts bizarre rituals concerning the preparation of food 
+0350 Caster adopts fastidious standards of hygiene
+0351 Caster adopts some unlikely animal as a kind of spirit totem
+0352 Caster adopts some unlikely object as a kind of holy symbol
+0353 Caster adopts the next religion he encounters for the first time 
+0354 Caster ages 1d10 years per hour until sunset tonight
+0355 Caster ages 1d10 years/round for 2 turns, then reverts to normal 
+0356 Caster ages backwards 2d4 years over that many rounds
+0357 Caster ages normally but forever retains his current appearance 
+0358 Caster ages one year per day spent on open water
+0359 Caster ages one year per mile that he travels away from this spot 
+0360 Caster always appears healthy and wealthy
+0361 Caster always appears sickly and destitute
+0362 Caster always feels as if the temperature is what it is right now 
+0363 Caster always pays 10% more than the asking price
+0364 Caster always sees his surroundings as misty and fog-shrouded 
+0365 Caster always thinks it's fifty degrees colder than it really is
+0366 Caster always thinks that there's one more step in the staircase 
+0367 Caster and everyone else forgets and can't discern his age
+0368 Caster and nearest intelligent weapon exchange personalities 
+0369 Caster and one nearby ally teleport to the caster's home
+0370 Caster annoys everyone by insisting that he's ambidextrous
+0371 Caster appears increasingly decrepit as the day wears on
+0372 Caster appears to be a bare skeleton from the waist down
+0373 Caster appears to be a bare skeleton from the waist up
+0374 Caster appears to be at full health, no matter how badly injured
+0375 Caster appears to be bleeding profusely whenever he's indoors 
+0376 Caster appears to be composed of translucent quartz
+0377 Caster appears to be covered in ugly scales for one day each week 
+0378 Caster appears to be made of countless flesh-colored pebbles 
+0379 Caster appears to be made out of bricks until sunset tomorrow 
+0380 Caster appears to be of a different species while sleeping
+0381 Caster appears to be of opposite sex while brandishing a shield 
+0382 Caster appears to be on fire while his spellbook is open
+0383 Caster appears to be operating his body from a remote location 
+0384 Caster appears to be undead for one hour after each meal 
+0385 Caster appears to be undead while in the presence of undead 
+0386 Caster appears to be weathered like an ancient statue
+0387 Caster appears to have a railroad spike jutting from his forehead 
+0388 Caster appears to have been carved from wood with an axe 
+0389 Caster appears to have been crafted out of clay by children 
+0390 Caster appears to have been torn apart and hastily reassembled 
+0391 Caster appears to shrivel like a raisin after each casting
+0392 Caster appears translucent to anyone of the opposite sex 
+0393 Caster asks Elves if they can supply him with fudge cookies 
+0394 Caster ate the last of the rations that his party was carrying 
+0395 Caster ate two or three pounds of apple seeds this morning 
+0396 Caster attempts to drink every potion he sees
+0397 Caster attracts undead in any town he enters
+0398 Caster attracts zealous sycophants wherever he goes
+0399 Caster automatically believes that his own illusions are real
+0400 Caster awakens to find that the last 1d8 hours were only a dream 
+0401 Caster bears the birthmark of the lineage of powerful kings
+0402 Caster becomes disturbingly frenetic until sunset
+0403 Caster becomes flat as a sheet of parchment for 2d6 rounds 
+0404 Caster becomes increasingly simian as the days wear on
+0405 Caster becomes invisible to anyone who successfully Charms him 
+0406 Caster becomes lost if he enters a cave by himself
+0407 Caster becomes lost if he enters a forest by himself
+0408 Caster becomes powerfully addicted to necromantic magic
+0409 Caster becomes powerfully addicted to Chaos Bursts
+0410 Caster becomes tightly stuck to the next chair in which he sits 
+0411 Caster becomes unconscious when he becomes invisible
+0412 Caster becomes violently ill if he eats near a fire
+0413 Caster becomes visibly anxious at the sight of holy water
+0414 Caster begins aging backwards, one year per round
+0415 Caster begins growing one inch per week
+0416 Caster begins his conversations with an insulting comment
+0417 Caster begins to resemble the next person who touches him 
+0418 Caster begins worshipping his spellbook with burnt offerings
+0419 Caster believes that a nearby sheep is his polymorphed true love 
+0420 Caster briefly turns translucent after casting a spell
+0421 Caster burns with homicidal rage whenever he's struck by magic 
+0422 Caster can alter his weight by up to 50% at will
+0423 Caster can always sense his location relative to this location
+0424 Caster can appear to be 50% fatter at will
+0425 Caster can appraise gems by tasting them
+0426 Caster can ask three questions of the next tree he touches
+0427 Caster can assess the purity of any metal by tasting it
+0428 Caster can be accurately described as "frumious"
+0429 Caster can be injured but not killed by any bludgeoning weapon 
+0430 Caster can be injured but not killed by any female creature
+0431 Caster can be injured but not killed by any male creature
+0432 Caster can be injured by fire, but it can't kill him
+0433 Caster can be injured by metal weapons, but they can't kill him 
+0434 Caster can be injured normally but can only be slain by fire
+0435 Caster can be injured normally but can only be slain by magic 
+0436 Caster can become invisible at will while he's knee-deep in snow 
+0437 Caster can become invisible while standing neck-deep in water 
+0438 Caster can breathe underwater, but he always smells like a fish 
+0439 Caster can carry any weight of books but only in his bare hands
+0440 Caster can cause one creature near him to turn to iron
+0441 Caster can cause one nearby person to age 1d10 years
+0442 Caster can change the size of his ears at will
+0443 Caster can conjure apples out of thin air, one at a time
+0444 Caster can control any undead skeletons now within 100 yards 
+0445 Caster can detach either of his hands at will
+0446 Caster can detach his head easily but dies if he does so
+0447 Caster can detect non-magical fire within 500 yards
+0448 Caster can detect the nearest potable water at will
+0449 Caster can detect the presence of elementals within 100 yards 
+0450 Caster can detect True East at will
+0451 Caster can discern a person's age by touching him
+0452 Caster can discern a tree's age by touching it
+0453 Caster can discern whether people are really unconscious
+0454 Caster can discern which spells a magic user has memorized
+0455 Caster can disgorge a pound of sawdust once per day
+0456 Caster can double his spells' range if he's carrying no metal
+0457 Caster can double his weight for up to 1d4 rounds per day
+0458 Caster can drink only from a golden bowl worth 100 gold pieces 
+0459 Caster can easily walk on ice while barefoot
+0460 Caster can echolocate like a dolphin while naked and underwater 
+0461 Caster can endure normal fire one round per point of Constitution 
+0462 Caster can extend his legs to 150% of their normal length at will 
+0463 Caster can extend his legs to 2X their normal length at will
+0464 Caster can handle red-hot metal with his bare hands
+0465 Caster can hear what occurs at this location from up to 10 miles 
+0466 Caster can hear what's going on in his home, wherever he is
+0467 Caster can hold his breath for 3X his Wisdom score in rounds
+0468 Caster can hurl a baseball-sized object beyond the horizon
+0469 Caster can identify any kind of fungus on sight
+0470 Caster can ignite twigs by sticking them in his mouth
+0471 Caster can ignore any spell cast on him but is 80% likely to die 
+0472 Caster can induce ravenous hunger in others
+0473 Caster can inflate his left hand like a balloon
+0474 Caster can instantly count quantities of fewer than 1,000 items 
+0475 Caster can judge visible distances with amazing accuracy
+0476 Caster can light candles simply by touching their wicks
+0477 Caster can magically create edible but non-nourishing food
+0478 Caster can make his ears resemble noses at will
+0479 Caster can memorize spells 4x faster than is normally required 
+0480 Caster can move easily through running water less than waist-deep 
+0481 Caster can move in total silence for his Wisdom score in rounds 
+0482 Caster can move silently while holding a thumb in each nostril
+0483 Caster can never again come within one mile of his home
+0484 Caster can no longer use charged magic items
+0485 Caster can only digest food that is spoiled or rotting
+0486 Caster can only use electrical magic while standing in water
+0487 Caster can only wear one shoe at a time
+0488 Caster can open his mouth as wide as he is tall
+0489 Caster can pass his right arm through up to six inches of wood 
+0490 Caster can reattach his own limbs if they're severed
+0491 Caster can recall his own birth with perfect clarity
+0492 Caster can remove his tongue and replace it at will
+0493 Caster can remove one eye and replace it at will
+0494 Caster can remove or negate one curse
+0495 Caster can resemble a decaying zombie at will
+0496 Caster can retract his feet into his ankles at will
+0497 Caster can retract his fingers into his palms at will
+0498 Caster can retract his nose into his face at will
+0499 Caster can scale walls like a monkey while unencumbered
+0500 Caster can see in total darkness if he has a banana in his pocket 
+0501 Caster can see secret doors easily but can't see normal doors 
+0502 Caster can see through fire
+0503 Caster can see through his eyelids for up to 1d6 rounds at a time 
+0504 Caster can see through stone if he has a pebble in his mouth
+0505 Caster can see underwater clearly while naked and wielding an axe 
+0506 Caster can seem to be infected with a particular disease at will 
+0507 Caster can seen in total darkness for 1d4 days
+0508 Caster can sense intelligent weapons within 10 yards
+0509 Caster can sense people who've been affected by Chaos Bursts 
+0510 Caster can speak but can't engage in actual conversations
+0511 Caster can speak in a whisper to anyone in his line of sight 
+0512 Caster can speak in any of 2d4 voices at will
+0513 Caster can speak with ants but can only ask yes/no questions 
+0514 Caster can speak with carrion birds, but he smells like a corpse 
+0515 Caster can speak with carrion birds, but he's permanently bald 
+0516 Caster can speak with domestic fowl, but he crows at sunrise
+0517 Caster can speak with domestic fowl, but they tend to lie to him 
+0518 Caster can speak with honeybees while dancing like one of them 
+0519 Caster can speak with oysters while holding a pearl in his mouth 
+0520 Caster can speak with small fish, but only while underwater
+0521 Caster can spot the strongest member of any group of five or more 
+0522 Caster can stretch his left arm 2X the length of his body
+0523 Caster can subsist on bark for up to 1d4 days at a time
+0524 Caster can Summon 1d10 rabbits, once per level per week
+0525 Caster can Summon a powerful entity to answer one question 
+0526 Caster can Summon a powerful entity who will then try to kill him 
+0527 Caster can Summon but not control a powerful, malevolent entity 
+0528 Caster can Summon up to 1d10 pigeons per month
+0529 Caster can survive at the bottom of the sea for 1d4 minutes
+0530 Caster can survive in the depths of space, if he can get there
+0531 Caster can survive one fall of up to twenty miles
+0532 Caster can taste foods simply by touching them
+0533 Caster can teleport 10 feet straight up, once per day
+0534 Caster can teleport 10 times at will but loses a finger each time 
+0535 Caster can teleport at will but ages 1d100 years each time
+0536 Caster can teleport at will but arrives unconscious for one hour 
+0537 Caster can teleport at will but can't pick the destination
+0538 Caster can teleport at will but doesn't arrive for 1d12 months
+0539 Caster can teleport at will but is 10% likely to arrive dead
+0540 Caster can teleport at will but is paralyzed from the neck down 
+0541 Caster can teleport at will but loses 1d100 hit points each time 
+0542 Caster can teleport at will but only while naked and unencumbered 
+0543 Caster can teleport at will but shrinks by 50% per mile traveled 
+0544 Caster can teleport at will to this exact spot 2d6 times
+0545 Caster can teleport into the nearest hollow tree, once
+0546 Caster can teleport up to fifty feet once per day
+0547 Caster can throw one baseball-sized item 2d6 days into the future 
+0548 Caster can throw one nearby person 1d10 rounds into the future 
+0549 Caster can throw one nearby person 1d4 days into the future 
+0550 Caster can transmute magically-created metal into wood
+0551 Caster can travel in time but ages 1d10 years per round traveled 
+0552 Caster can turn 360° at the waist without harm
+0553 Caster can turn ethereal at will but can't revert for 3d8 days
+0554 Caster can turn his arms to wood for up to 1d6 rounds per day 
+0555 Caster can turn his bones invisible at will
+0556 Caster can turn his hands invisible at will 1d8 times per day
+0557 Caster can turn his head completely around once per day
+0558 Caster can turn into a cat but can't resume his true form
+0559 Caster can turn into a falcon but is only 30% likely to turn back 
+0560 Caster can turn into a small tree while he's indoors
+0561 Caster can turn into any kind of fish if no water is nearby
+0562 Caster can turn invisible while he holds his breath
+0563 Caster can turn invisible while naked and motionless
+0564 Caster can walk on inclines of 45° or less as if they were flat
+0565 Caster can withstand ocean depths while holding a bar of sodium 
+0566 Caster can, at will, appear to be the next person he touches
+0567 Caster can't attack anyone more than 20 feet away from him
+0568 Caster can't be beheaded
+0569 Caster can't be blinded or dazzled by sunlight
+0570 Caster can't be burned by magical fire for 1d4 hours 
+0571 Caster can't be burned by steam or scalding water 
+0572 Caster can't be Charmed by anyone of the opposite sex 
+0573 Caster can't be crushed by any weight of stone
+0574 Caster can't be cut by any blade until he casts his next spell 
+0575 Caster can't be cut by glass
+0576 Caster can't be cut by non-magical blades for 1d4 days 
+0577 Caster can't be harmed by any member of the royal family 
+0578 Caster can't be harmed by loud, non-magical sound
+0579 Caster can't be harmed by refined metals for 1d4 hours
+0580 Caster can't be harmed while he stands where he is right now 
+0581 Caster can't be killed by anyone of his own race
+0582 Caster can't be overwhelmed by foul odors
+0583 Caster can't be seen through glass or ice
+0584 Caster can't be strangled
+0585 Caster can't breathe for 4d6 rounds
+0586 Caster can't bring his left hand within 18 inches of his head
+0587 Caster can't carry anything larger than his own head
+0588 Caster can't carry anything made entirely of metal
+0589 Caster can't carry refined metal in a wooded environment
+0590 Caster can't cast any spells he now has memorized for 1d8 days 
+0591 Caster can't cast fire-based magic while in the rain
+0592 Caster can't cast fire-based spells in a wooded environment
+0593 Caster can't cast force-based spells (Wall of Force, etc.)
+0594 Caster can't cast magic on anyone not wearing armor
+0595 Caster can't cast magic on anyone while they're eating
+0596 Caster can't cast magic unless he's within sight of a tree
+0597 Caster can't cast magic upon himself for 1d4 weeks
+0598 Caster can't create magical walls or barriers
+0599 Caster can't create normal or magical fire for 1d4 days
+0600 Caster can't create permanent magical objects or effects
+0601 Caster can't cross moving water while brandishing a weapon
+0602 Caster can't cross moving water while carrying his spellbook
+0603 Caster can't cross moving water while wearing clothes
+0604 Caster can't cross moving water while wearing magical rings
+0605 Caster can't cross moving water without assistance
+0606 Caster can't determine when he's hungry or thirsty
+0607 Caster can't eat any cooked meat
+0608 Caster can't eat any food that doesn't contain a handful of soil 
+0609 Caster can't eat any food that he himself didn't prepare
+0610 Caster can't eat any salted or cured meat
+0611 Caster can't eat while at full hit points
+0612 Caster can't employ magical means of improving his Armor Class 
+0613 Caster can't enter any artificial structure for 2d4 weeks
+0614 Caster can't enter any building in which Dwarves are present
+0615 Caster can't go more than 10' from this location for 24 hours
+0616 Caster can't harm or be harmed by elementals for 4d10 months 
+0617 Caster can't inflict injury upon himself with any metal weapon
+0618 Caster can't learn any new spells until he's been resurrected
+0619 Caster can't learn any new spells within 1d10 miles of here
+0620 Caster can't lift both feet from the ground at the same time
+0621 Caster can't move his arms for 1d4 turns
+0622 Caster can't move his left arm or right leg for 1d4 turns
+0623 Caster can't move more than 10 feet from the next tree he touches 
+0624 Caster can't open any door constructed primarily of wood
+0625 Caster can't open any door that has a hinge made of metal
+0626 Caster can't open any door that opens toward him
+0627 Caster can't open any door unless his hair is wet
+0628 Caster can't open any door while anyone is watching
+0629 Caster can't quite be certain that he really exists
+0630 Caster can't remember the last 2d12+12 hours
+0631 Caster can't remove any magical armor that he's now wearing 
+0632 Caster can't remove his hands from his pockets
+0633 Caster can't run while his eyes are open
+0634 Caster can't see any extra-planar creatures for one year
+0635 Caster can't see through glass, ice, diamond, or the like 
+0636 Caster can't sleep indoors while it's raining
+0637 Caster can't sleep more than 1d4 hours at a time
+0638 Caster can't sleep until he shaves his head bald
+0639 Caster can't sleep until he's walked at least 4d8 miles from here 
+0640 Caster can't speak for one hour and can only croak like a frog 
+0641 Caster can't speak for one hour if he's wearing clothes
+0642 Caster can't speak in anything less than a full shout
+0643 Caster can't speak in sentences longer than 10 syllables
+0644 Caster can't speak to anyone holding a blood-stained weapon 
+0645 Caster can't speak to anyone whom he's not currently touching 
+0646 Caster can't speak unless he first turns in a circle
+0647 Caster can't speak unless he's brandishing a weapon
+0648 Caster can't speak unless he's carrying at least one gold coin 
+0649 Caster can't speak unless his thumbs are touching
+0650 Caster can't speak until he's removed 1d10 articles of clothing 
+0651 Caster can't speak while holding a weapon
+0652 Caster can't stand with both feet on the ground at the same time 
+0653 Caster can't stop talking for 6d12 hours
+0654 Caster can't tolerate the presence of wet ink
+0655 Caster can't touch food with his hands
+0656 Caster can't use any blade longer than his forearm
+0657 Caster can't use any magic until someone cuts him with a blade 
+0658 Caster can't use magic between sunrise and noon
+0659 Caster can't use magic for 1d4 rounds after being wounded
+0660 Caster can't use magic for 1d6 rounds after being struck by magic 
+0661 Caster can't use magic for six hours after ingesting meat
+0662 Caster can't use magic items for one turn after casting a spell 
+0663 Caster can't use magic items that contain gold
+0664 Caster can't use magic items until sunrise
+0665 Caster can't use magic items while at full hit points
+0666 Caster can't use magic unless he swallows a gold coin each day 
+0667 Caster can't use magic unless he's holding a buzzard's feather 
+0668 Caster can't use magic until he eats a pound of feathers
+0669 Caster can't use magic until sunset tomorrow
+0670 Caster can't use magic while sitting
+0671 Caster can't use magic within 1d4 miles of this spot for 5d6 days 
+0672 Caster can't use missile weapons for one week
+0673 Caster can't use non-magical blades for 1d6 days
+0674 Caster can't use the spell Dispel Magic
+0675 Caster can't use the spell that triggered this Burst for one year 
+0676 Caster can't use weapons that contain wood
+0677 Caster can't wake without assistance
+0678 Caster can't walk (run, etc.) while wearing a magic ring
+0679 Caster can't wear magical rings
+0680 Caster can't wield any weapon longer than his arm
+0681 Caster changes his name to its reverse: "Tom" becomes "Mot" 
+0682 Caster claims that he's doing the work of some god or other
+0683 Caster claims to be able to command dragons to do his bidding 
+0684 Caster claims to be immune to inorganic poisons
+0685 Caster claims to be the offspring of a god and a mortal
+0686 Caster claims to have begotten a child with a god
+0687 Caster claims to have committed logically impossible acts
+0688 Caster claims to have created the universe
+0689 Caster claims to have invented the Fireball spell
+0690 Caster combusts instantly if he's stabbed by a silver dagger
+0691 Caster comes into possession of 1d100 acres of swampland 
+0692 Caster comes into possession of a bag full of mismatched teeth 
+0693 Caster comes into possession of a black velvet painting of Elves 
+0694 Caster comes into possession of a foul, decomposing skull
+0695 Caster comes into possession of a golden vial of silver fluid
+0696 Caster comes into possession of a ring that can't be removed 
+0697 Caster comes into possession of a three-legged pony
+0698 Caster comes into possession of an apparently magical lamp 
+0699 Caster comes into possession of his great-grandfather's jawbone
+0700 Caster completely blends into his surroundings while he's asleep 
+0701 Caster completely blends into his surroundings while upside down 
+0702 Caster compulsively hordes some kind of small, worthless item 
+0703 Caster confesses to every crime he hears about
+0704 Caster confesses to improbable crimes (e.g. "I stole the moonÖ") 
+0705 Caster consistently overestimates his martial and magical prowess 
+0706 Caster continues to age normally but can't die of old age
+0707 Caster coughs violently in the presence of undead
+0708 Caster craves moss
+0709 Caster craves wood like a termite
+0710 Caster cries like a baby whenever he's hungry or can't sleep
+0711 Caster cries like a baby whenever he's struck by magic
+0712 Caster dances like a belly-dancer for 2d6 rounds
+0713 Caster declares himself to be the center of the universe
+0714 Caster declares that Dwarves are indistinguishable from orcs
+0715 Caster declares that he can redeem the damned
+0716 Caster declares that he has the power to absolve sins
+0717 Caster declares that he is the judge of all mankind
+0718 Caster declares that these pretzels are making him thirsty
+0719 Caster deeply resents anyone who asks him to use magic
+0720 Caster deeply resents anyone who doesn't praise his magical skill 
+0721 Caster deeply resents anyone who eats meat in his presence
+0722 Caster deeply resents anyone who uses magic in his presence 
+0723 Caster demands that employers pay him in wood instead of gold 
+0724 Caster demands that his allies adopt fastidious hygiene standards 
+0725 Caster demands that his allies treat him as though he's invisible 
+0726 Caster demands that people call him Ishmael
+0727 Caster demands that people call him Legion, for he is many
+0728 Caster demands that people call him The Spell-Meister
+0729 Caster derives no nourishment from food cooked over a fire
+0730 Caster derives no nourishment from food eaten after sunset
+0731 Caster derives no nourishment from food eaten near a lake
+0732 Caster develops a stutter while in the presence of undead
+0733 Caster develops an intense hunger for leather strapping
+0734 Caster develops an intense hunger for the pages of his spellbook 
+0735 Caster didn't actually exist prior to this Chaos Burst
+0736 Caster dies if he slays a zombie in the next 1d6 days
+0737 Caster dies instantly if his blood is spilled by a god
+0738 Caster dies instantly if his blood is spilled by mistletoe
+0739 Caster dies painfully but arises at dawn having gained one level 
+0740 Caster discovers a whole pantheon of hitherto overlooked deities 
+0741 Caster discovers that one of his limbs belongs to someone else 
+0742 Caster discovers that one of his limbs is a clockwork replica
+0743 Caster disgorges 10d10 feet of rubber tubing
+0744 Caster disgorges 1d100 gold pieces
+0745 Caster disgorges 1d100 pounds of wet, coarse sand
+0746 Caster disgorges 1d4 apples per hour for the next 3d8 hours
+0747 Caster disgorges 1d4 gallons of foul, necrotic mush
+0748 Caster disgorges 1d6 gallons of rusty sludge
+0749 Caster disgorges 2d10 pounds of carrots
+0750 Caster disgorges 2d4 full-sized wool blankets
+0751 Caster disgorges a 100 foot length of fine silver wire
+0752 Caster disgorges a ball of solid bone nine inches in diameter
+0753 Caster disgorges a bar of copper four feet in length
+0754 Caster disgorges a bar of soap as large as his spellbook
+0755 Caster disgorges a bolt of finely embroidered silk
+0756 Caster disgorges a book about gastrointestinal anomalies
+0757 Caster disgorges a book of carpet samples
+0758 Caster disgorges a box of rare botanical samples
+0759 Caster disgorges a bushel of ripe peaches
+0760 Caster disgorges a coffin large enough to accommodate his corpse 0761 Caster disgorges a four-course meal for three
+0762 Caster disgorges a full-grown cactus
+0763 Caster disgorges a full-sized barrel
+0764 Caster disgorges a glass cube four inches on a side
+10
+
+0765 Caster disgorges a glass vial containing a mysterious potion 0766 Caster disgorges a golden birdcage
+0767 Caster disgorges a king's long-lost signet ring
+0768 Caster disgorges a large bunch of bananas
+0769 Caster disgorges a large chair
+0770 Caster disgorges a large pane of glass
+0771 Caster disgorges a length of heavy chain
+0772 Caster disgorges a life-sized ice sculpture of a horse
+0773 Caster disgorges a long hunk of driftwood
+0774 Caster disgorges a lump of brass the size of his torso
+0775 Caster disgorges a medium-sized astrolabe
+0776 Caster disgorges a mop and a wooden bucket full of suds
+0777 Caster disgorges a mysterious and important-looking key
+0778 Caster disgorges a pair of deer antlers
+0779 Caster disgorges a pair of smith's fire tongs
+0780 Caster disgorges a pouch full of rare and ancient coins
+0781 Caster disgorges a pound of mercury
+0782 Caster disgorges a pound of molten lead
+0783 Caster disgorges a ring full of keys that don't fit any lock
+0784 Caster disgorges a ship's anchor
+0785 Caster disgorges a small brazier full of burning coals
+0786 Caster disgorges a sort of bowl-shaped porcelain chair
+0787 Caster disgorges a weapon that he misplaced 1d12 months ago 0788 Caster disgorges a whole pumpkin
+0789 Caster disgorges a wrought-iron staircase banister
+0790 Caster disgorges an airtight canister filled with nitrogen gas
+0791 Caster disgorges an elephant's femur
+0792 Caster disgorges an entire beehive
+0793 Caster disgorges an exact copy of the head of someone nearby 0794 Caster disgorges an oil painting of this scene
+0795 Caster disgorges an ostrich egg
+0796 Caster disgorges enough snow to blanket an area ten feet square 0797 Caster disgorges half of a canoe
+0798 Caster disgorges the carcass of a strange and colorful bird
+0799 Caster disgorges the emblem of some diabolical religious cult 0800 Caster disgorges the entire, intact skin of a giraffe
+0801 Caster disgorges the entire, intact skin of someone nearby
+0802 Caster disgorges what appears to be his entire nervous system 0803 Caster disgorges what appears to be his own still-beating heart 0804 Caster displays all the signs of full demonic possession
+0805 Caster distrusts anyone displaying a cut gem or jewel
+0806 Caster distrusts anyone taller than he is
+0807 Caster distrusts anyone who doesn't know the caster's name 0808 Caster distrusts anyone who doesn't resemble him
+0809 Caster distrusts anyone who won't let him examine their teeth 0810 Caster distrusts anyone who's wearing armor
+0811 Caster distrusts other members of his race
+0812 Caster distrusts other spellcasters
+0813 Caster doesn't need to drink fluids for the next 1d100 weeks 0814 Caster doesn't need to eat during the new moon
+0815 Caster doesn't need to eat for the next 1d100 weeks
+0816 Caster doesn't remember anyone now within 10 miles
+0817 Caster donates all of his money to some unlikely charity
+0818 Caster dreams each night of a powerful and malevolent artifact 0819 Caster dreams each night of being painfully turned inside out 0820 Caster dreams each night of being worshipped by gods
+0821 Caster dreams of being stalked by an invisible hunter from space 0822 Caster dreams of unicorns and wonders if he's an automaton 0823 Caster drinks any potions he's now carrying
+0824 Caster eat food for 1d12 hours after using a magic item
+0825 Caster embraces someone nearby and is reluctant to let go
+0826 Caster embraces the nearest tree and refuses to let go
+0827 Caster ends his conversations with an annoying catch phrase 0828 Caster engages in a long, heated debate with the nearest tree 0829 Caster enjoys the taste of fire
+0830 Caster enjoys the taste of lamp oil
+0831 Caster erases one randomly-chosen spell from his spellbook
+0832 Caster experiences pain if he handles jewels or precious gems 0833 Caster experiences pain when he spends money
+0834 Caster experiences violent, full-body spasms for 2d4 rounds
+0835 Caster faces True North and is stuck that way for one turn
+0836 Caster falls down the next flight of steps he encounters
+0837 Caster falls from the nearest tree
+0838 Caster falls madly in love with someone he's never heard of
+0839 Caster falls madly in love with someone who's never existed
+0840 Caster fears densely wooded areas
+0841 Caster fears non-magical, non-humanoid mammals
+0842 Caster fears that he'll be damned forever whenever he uses magic 0843 Caster fears that he'll cease to exist if he causes another Burst 0844 Caster fears that his allies are vanishing one by one
+0845 Caster fears that his limbs are vanishing one by one
+0846 Caster fears that spiders have lain countless eggs in his brain 0847 Caster fears the reaper
+0848 Caster feels a psychic bond to someone unknown but nearby 0849 Caster feels as if he's always walking on a slope
+0850 Caster feels as though he's trudging through knee-deep snow 0851 Caster feels as though he's trudging uphill
+0852 Caster feels constant, overwhelming hunger while in his home 0853 Caster feels countless small snakes crawling all over his body 0854 Caster feels incredible hostility toward non-magic users
+0855 Caster feels incredible hostility toward other magic users
+0856 Caster feels inexplicable anxiety when he hears his name
+0857 Caster feels inexplicable anxiety while at full hit points
+0858 Caster feels inexplicable nostalgia when he meets new people 0859 Caster feels intense but unfocused hatred for 1d6 hours
+0860 Caster feels intense discomfort when people smile at him
+0861 Caster feels more comfortable among the undead than the living 0862 Caster feels overpowering fear in the presence of steam
+0863 Caster feels overpowering hatred for the next magic item he sees 0864 Caster feels powerless unless everyone knows he's a magic user 0865 Caster feels powerless unless he's wearing boots on his hands 0866 Caster feels strangely calm while in the presence of dragons
+0867 Caster feels thorny roots growing slowly through his flesh
+0868 Caster fiercely covets the next magical ring he sees
+0869 Caster finds 1d100 cans containing pink, processed meat in jelly 0870 Caster finds 1d4 extra spells in his spellbook
+0871 Caster finds 1d4 small rodents living in his spellbook
+0872 Caster finds 2d6 white pills, each of which heals 1d20 hit points 0873 Caster finds 2d8 real-looking but useless spells in his spellbook 0874 Caster finds a barrel full of rancid mayonnaise
+0875 Caster finds a book describing the methods for self-dissection 0876 Caster finds a book that will shatter his sanity if he reads it
+0877 Caster finds a compelling but incomprehensible magical tome 0878 Caster finds a copy of Aristotle's long-lost Poetics of Comedy
+0879 Caster finds a copy of his own ghost-written autobiography
+0880 Caster finds a crystal containing a tiny image of himself
+0881 Caster finds a cube of frozen human blood, one foot on a side 0882 Caster finds a four-valve trumpet that can raise the dead
+0883 Caster finds a handful of mysterious pills in his pocket
+0884 Caster finds a handful of rainbow-colored powder in his pocket 0885 Caster finds a hideous carved idol of a cephalopoid god-monster 0886 Caster finds a key that explodes when inserted into any lock
+0887 Caster finds a large, cursed diamond in the next hole he digs
+0888 Caster finds a large, gold box containing nothing but sand
+0889 Caster finds a large, metal disc engraved with his image
+0890 Caster finds a list of assassination targets; his name is next
+0891 Caster finds a magic wand but for some reason is afraid to use it 0892 Caster finds a minor artifact in the next hole he digs
+0893 Caster finds a mirror that grants false visions of the future
+0894 Caster finds a mirror that reflects everyone but him
+11
+
+0895 Caster finds a mirror that reflects only vampires
+0896 Caster finds a notebook detailing the way he was built in a lab 0897 Caster finds a number that divides evenly into all prime numbers 0898 Caster finds a pair of gloves that devour any hands inside them 0899 Caster finds a pair of gloves that turn to steel when worn
+0900 Caster finds a pair of stone tablets engraved with quaint laws 0901 Caster finds a possibly inaccurate chronology of his entire life 0902 Caster finds a potion 90% likely to heal and 10% likely to kill 0903 Caster finds a potion that can instantly cause his death
+0904 Caster finds a potion that can instill zealous religious fervor
+0905 Caster finds a potion that can turn him into an invisible cat
+0906 Caster finds a potion that induces permanent madness in horses 0907 Caster finds a potion that makes the drinker even more visible 0908 Caster finds a pouch full of 1d100 totally identical teeth
+0909 Caster finds a pouch full of highly flammable black dust
+0910 Caster finds a powder that burns trolls as if it were strong acid 0911 Caster finds a powder that can dissolve up to one pound of gold 0912 Caster finds a powder that can eliminate any poison from food 0913 Caster finds a powder that can render the invisible visible
+0914 Caster finds a powder that can turn a zombie into an inert corpse 0915 Caster finds a powder that can turn an inert corpse into a zombie 0916 Caster finds a powder that combusts in the presence of orcs 0917 Caster finds a powder that induces addictive euphoria if inhaled 0918 Caster finds a powder that induces extreme covetousness
+0919 Caster finds a powder that is highly toxic to everyone but him 0920 Caster finds a powder that is highly toxic to him but no one else 0921 Caster finds a powder that is highly toxic to large-sized insects 0922 Caster finds a powder that quickly seals open wounds
+0923 Caster finds a powder that repels elementals
+0924 Caster finds a sack full of his own crematory remains
+0925 Caster finds a satchel containing his weight in gold pieces
+0926 Caster finds a scroll describing exactly how & when he'll die
+0927 Caster finds a secret passage in the next room he enters
+0928 Caster finds a set of high-quality watchmaker's tools
+0929 Caster finds a small iron box containing 4d8 of his own teeth 0930 Caster finds a treasure map in the next animal he butchers
+0931 Caster finds a treasure map that others will kill to possess
+0932 Caster finds a trumpet that, if blown, may herald the End Times 0933 Caster finds a weapon that can kill a god
+0934 Caster finds a wooden box whose interior can't be illuminated 0935 Caster finds an amulet that repels Summoned creatures
+0936 Caster finds black meat like a tainted cheese
+0937 Caster finds blueprints for building some anachronistic device 0938 Caster finds convincing evidence that he's just a clone
+0939 Caster finds foul odors pleasant and pleasant scents repulsive 0940 Caster finds his own decaying corpse in the next hole he digs 0941 Caster finds proof that a dangerous secret society runs the world 0942 Caster finds strong evidence that the apocalypse is nigh
+0943 Caster finds strong evidence that the planet is artificial
+0944 Caster finds the ruins of a vast magical library
+0945 Caster finds the sight of cooked meat to be highly offensive
+0946 Caster finds the whole idea of "names" to be silly and pointless 0947 Caster finds the wreckage of a seagoing vessel in a nearby forest 0948 Caster finds two of the three keys needed to unlock the world 0949 Caster flees this spot and can't return for at least one year
+0950 Caster flees, panic-stricken, at top speed in a random direction 0951 Caster flickers like a guttering candle for 1d6 turns
+0952 Caster flies into a fury when he removes his shoes
+0953 Caster flies into a murderous rage and attacks his nearest ally 0954 Caster forgets any fire that he lights
+0955 Caster forgets any first-level spell he now has memorized
+0956 Caster forgets everyone's name
+0957 Caster forgets everything he knows about etiquette
+0958 Caster forgets how to open his spellbook
+0959 Caster forgets how to use knives and blades of all kinds
+0960 Caster forgets how to use magic for 1d4 days
+0961 Caster forgets how to walk for 1d12 hours
+0962 Caster forgets that his name is a vile expletive in Dwarfish
+0963 Caster gains 1d4 points of Strength; loses one point per day
+0964 Caster gains experience at 2X normal rate until he gains a level 0965 Caster gains minor access to a formerly forbidden school of magic 0966 Caster gains no benefit from magical healing during daylight
+0967 Caster gains no benefit from wearing gloves or gauntlets
+0968 Caster gains one pound per level of spells he casts
+0969 Caster gains one pound per round for the next 1d100 rounds
+0970 Caster generally seems to be lying when talking about magic
+0971 Caster gets a splinter every time he wields a wooden weapon 0972 Caster gives his party two weeks' notice before resigning
+0973 Caster glows as bright as daylight while he's asleep
+0974 Caster goes berserk and attacks the next undead creature he sees 0975 Caster goes berserk in the presence of royalty
+0976 Caster goes berserk whenever he receives magical healing
+0977 Caster goes on and on about his misunderstood genius
+0978 Caster goes out of his way to appear humble and unassuming 0979 Caster goes out of his way to avoid using magic in combat
+0980 Caster goes out of his way to be offensive to royalty
+0981 Caster goes out of his way to draw attention to himself in battle 0982 Caster gradually becomes more and more angular
+0983 Caster gradually becomes more and more turtle-like
+0984 Caster growls in his sleep like a tiger
+0985 Caster grows 1d10 new and mysterious organs in his abdomen 0986 Caster grows an additional finger each week
+0987 Caster grows one inch per day for the next 2d4-1 days
+0988 Caster hallucinates wildly the next time he drinks water
+0989 Caster hallucinates wildly until he drinks a quart of water
+0990 Caster has 5 Intelligence for 1d6 turns
+0991 Caster has 5 Strength for 1d4 turns
+0992 Caster has 1d100 real-looking but useless copies of his spellbook 0993 Caster has a +10 bonus on each of his next 1d4 dice rolls
+0994 Caster has a 10% chance to control any Summoned entity he sees 0995 Caster has a 10% chance to pick any mechanical lock
+0996 Caster has a 25% chance to go blind in each of the next 4 rounds 0997 Caster has a blood-sworn enemy in every town within 500 miles 0998 Caster has a clear memory of building himself from scratch
+0999 Caster has a close relative in every town within 500 miles
+1000 Caster has a crystal cube that enables him to see through wood

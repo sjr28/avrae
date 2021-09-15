@@ -1,0 +1,33 @@
+<drac2>
+sb = load_json(get_gvar("0abb5e5a-8b41-40da-b9fb-42429aaba25e"))
+classlist = ["Archmage","Archon","Ascendant","Primordial","Overlord"]
+args = &ARGS&
+pargs, c = argparse(&ARGS&),combat()
+t1 = "Epic Tier 1"
+t2 = "Epic Tier 2"
+t3 = "Epic Tier 3"
+cl = args[0].lower() == 'class' if args else False
+help = args[0].lower() in '?help' if args else True
+spell = [x for x in sb if args[0].lower() in x["name"].lower()]
+
+
+
+if cl:
+	if len(args)<2:
+		return f'''embed -title "{name} needs to learn some class!" -desc "You need to set your Epic class before setting your Epic Level, then you can start casting. Run `.epic class [class name]` to set it!" '''
+	else:
+		classname = args[1].title() if args[1].title() in classlist else None
+		if classname:
+			character().set_cvar_nx("eClass",classname)
+			return f'''embed -title "{name} sets their Epic Class to {classname}!" -desc "Now run `.epic level [level]` to get your epic casting counters set up"'''
+#level = args[0].lower() == 'level' if args else False
+#if level:
+#character().create_cc_nx(t1, 0, constitution*6, 'long', reset_to="0")
+
+elif help:
+	return f'''embed -title "{name} wants to be Epic!" -desc "I don't know I'll fill this part in later" '''
+elif len(spell) == 0:
+	return f'''embed -title "{name} can't type!" -desc "Sorry, this alias can't handle mistyped spellnames as well as the native casting. Try again." '''
+else:
+	return f'''embed -title "Spell Name: {spell[0]["name"]}" -desc "{spell[0]["description"]}"'''
+</drac2>

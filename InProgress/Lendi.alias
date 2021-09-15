@@ -1,0 +1,39 @@
+<drac2>
+n = "Lendi"
+cc1 = "Lendi - Flesh to Stone"
+cc2 = "Lendi - Mold Earth"
+character().create_cc_nx(cc1, 0, 3, 'long', 'bubble')
+character().create_cc_nx(cc2, 0, 1, 'long', 'bubble')
+args,c=argparse(&ARGS&),combat()
+tgt=args.get('t')[0] if args.get('t') else None
+v1 = character().get_cc(cc1)>0
+v2 = character().get_cc(cc2)>0
+desc = "Lendi|This sword channels primordial earth magic within it, bending earth with each blow. Lendi is a +1 greatsword, and has 3 charges. Each charge may be used to inflict a DC 16 con save on a creature hit by an attack with the weapon, acting as the Flesh to Stone spell.\n\nThe user may also use the Mold Earth cantrip as a bonus action alongside an attack, once per day."
+curse = "Curse|Whenever a charge of Lendi is used, roll a d6. On a 1 or 2, the effects of the spell are reversed on the user. The user does not want to part with the weapon, and will not willingly unattune. Only a Greater Restoration spell or greater will end the attunement."
+
+if "stone" in &ARGS&:
+	if not v1:
+		return f'''embed -title "{name} is out of charges for {cc1}!" -desc "Sleep it off, champ." '''
+	else:
+		character().mod_cc(cc1, -1)
+		curseroll = vroll("1d6")
+		backfire = curseroll.total<3
+		if backfire:
+			return f'''cast "Flesh To Stone" -i -dc 16 -t {name} -phrase "and it backfires, using a charge of {cc1}" -f "**Curse**: {curseroll}; Backfires!" -f "{desc}" -f "{curse}" '''
+		else:
+			return f'''cast "Flesh To Stone" -i -t {tgt} -dc 16 -phrase "using a charge of {cc1}" -f "**Curse**: {curseroll}; Safe!" -f "{desc}" -f "{curse}" '''
+
+elif "mold" in &ARGS&:
+	if not v2:
+		return f'''embed -title "{name} is out of charges for {cc2}!" -desc "Sleep it off, champ." '''
+	else:
+		character().mod_cc(cc2, -1)
+		return f'''cast "Mold Earth" -i -phrase "using {cc2}" -f "{desc}" -f "{curse}"'''
+else:
+	return f'''embed -title "{name} admires {n}" -f "{desc}"  -f "{curse}" '''
+
+</drac2>
+-f "{{cc1}}|{{character().cc_str(cc1)}}"
+-f "{{cc2}}|{{character().cc_str(cc2)}}"
+-thumb https://media.discordapp.net/attachments/843923860767375392/876254892161912922/image0.png
+-footer "!lendi [stone|mold] -t target"

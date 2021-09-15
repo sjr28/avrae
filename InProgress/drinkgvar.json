@@ -1,0 +1,24 @@
+{
+	"Intoxication":{
+		"sober": "You are stone-cold sober! Someone get this humbloid a drink!",
+		"tipsy": "Judgment slightly impaired, but no noticeable effects. -1 penalty to attack rolls, skill checks, ability checks, and Dex saves.",
+		"merry": "Inhibitions lower, voices raise, and balance wavers slightly. -2 penalty to attack rolls, skill checks, ability checks, and Dex saves. Must make a Concentration check (DC 10 +spell level) to cast spells or take similar actions.",
+		"drunk": "Dizzy and disoriented, words slurred. -4 penalty to attack rolls, skill checks, ability checks, and Dex saves. Can safely take one partial action each round, but must make an Acrobatics check (DC 10) to both move and take an action. Falls down on a failure.",
+		"hammered": "Can’t walk in a straight line, generally incoherent. -8 penalty to attack rolls, skill checks, ability checks, and Dex saves.",
+		"plastered": "Communication is nearly impossible, as is standing up. -16 penalty to attack rolls, skill checks, ability checks, and Dex saves (though the character can take no actions, so it usually doesn’t matter). Must make a Concentration check (DC 16) to cast spells or take similar actions. Character is nauseated, and the only action he can normally take is a single move or move-equivalent action per round. A character who is plastered can, however, choose to take one partial action other than a movement, but is then stunned for the next 1d6 rounds.",
+		"unconscious": "Character is unconscious, usually from sickness or extreme dizziness and confusion."
+	},
+	"Beverages":{
+		"Ale":8,
+		"Wine":8,
+		"Mead":10,
+		"Spirits":10,
+		"Phoenix Fire":56
+	},
+	"Beak":{
+		"1":"You take 1d4 fire damage as the drink burns your stomach internally",
+		"2":"You are carried aloft by the same fiery energy of the phoenixes! You gain fiery wings for the next thirty seconds granting you a fly speed of 60 ft.",
+		"3":"You feel the might of the Phoenix inside of you! Gain 1d8 to any one roll you make within the next hour",
+		"4":"You feel a burp coming on. As you tilt your head back and open your mouth a small burst of flame spits from your mouth. The fire does not deal damage and makes no marks on anything."
+	}
+}

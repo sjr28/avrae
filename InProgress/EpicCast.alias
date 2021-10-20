@@ -8,7 +8,7 @@ t2 = "Epic Tier 2"
 t3 = "Epic Tier 3"
 cl = args[0].lower() == 'class' if args else False
 help = args[0].lower() in '?help' if args else True
-spell = [x for x in sb if args[0].lower() in x["name"].lower()]
+spell = [x for x in sb if args[0].lower() in x["name"].lower()] if args else ""
 
 
 
@@ -29,5 +29,8 @@ elif help:
 elif len(spell) == 0:
 	return f'''embed -title "{name} can't type!" -desc "Sorry, this alias can't handle mistyped spellnames as well as the native casting. Try again." '''
 else:
-	return f'''embed -title "Spell Name: {spell[0]["name"]}" -desc "{spell[0]["description"]}"'''
+	#return f'''embed -title "{name} casts {spell[0]["name"]}!" -f "*Tier {spell[0]["level"]} epic {spell[0]["school"]}*|{spell[0]["description"]}"'''
+	return f'''embed -title "Theo casts {spell[0]["name"]}!" -f "*Enchantment*|{spell[0]["description"]}"'''
 </drac2>
+-footer "You're Fucked."
+-thumb https://cdn.discordapp.com/attachments/892551848337219624/895060161725595648/image0.jpg

@@ -1,0 +1,31 @@
+<drac2>
+cc = "Wand of Polymorph"
+character().create_cc_nx(cc, 0, 7, 'long', 'bubble', reset_by='1d6+1')
+character().set_cvar_nx('wpoly_intact',"True")
+v = character().get_cc(cc)>=1
+args,c = "&*&",combat()
+f = "Wand of Polymorph|This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it.\n\nThe wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+g = "You've expended the wand's last charge and you rolled a "
+live = "Congratulations, you get to keep your wand (and remaining talons). For now."
+die = "The wand snaps, the talons attached to it horribly broken beyond repair. Time to find your patron and feed it more!"
+if '%1%' == 'reset':
+	character().set_cvar('wpoly_intact',"True")
+	character().mod_cc(cc, character().get_cc_max(cc))
+	return f'''embed -title "{cc} reset!" -desc "How many talons does {name} have left now?" '''
+elif wpoly_intact == "False":
+	return f'''embed -title "{name}'s {cc} is nowhere to be found!" -desc "Once you've fed your patron more talons, try `!wpoly reset`"'''
+elif v:
+	character().mod_cc(cc, -1)
+	if character().get_cc(cc)==0:
+		theRoll = roll('1d20')
+		if theRoll == 1:
+			character().set_cvar('wpoly_intact',"False")
+		return f'''cast "Polymorph" {args} -i -dc 15 -phrase "using the {cc}" -f "{f}" -f "{g}{theRoll}|{die if theRoll == 1 else live}" '''
+	else:
+		return f'''cast "Polymorph" {args} -i -dc 15 -phrase "using the {cc}" -f "{f}" '''
+else:
+	return f'''embed -title "All of the charges are gone from the {cc}!" -desc "If all the charges are used from the wand, roll a d20.  On a one, the wand turns to dust and is destroyed." '''
+</drac2>
+-f "{{cc}}{{f" (-{1})" if v else ""}}|{{character().cc_str(cc)}}" 
+-thumb https://www.dndbeyond.com/avatars/7/480/636284783799670435.jpeg
+-footer "!wpoly [-t target] [fail]"

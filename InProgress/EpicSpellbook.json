@@ -154,7 +154,7 @@
               {
                 "type": "damage",
                 "damage": "{damage}"
-              }
+              },
               {
                 "type": "ieffect",
                 "name": "Incapacitated (Caldera)",
@@ -384,73 +384,44 @@
     ]
   },
   {
-    "name": "Arcane Eye",
-    "level": 4,
-    "school": "D",
-    "classes": "Artificer, Wizard",
-    "subclasses": "Arcana Domain, Knowledge Domain",
-    "casttime": "1 action",
-    "range": "30 feet",
-    "components": {
-      "verbal": true,
-      "somatic": true,
-      "material": "a bit of bat fur"
-    },
-    "duration": "Concentration, up to 1 hour",
-    "description": "You create an invisible, magical eye within range that hovers in the air for the duration.\n\nYou mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.\n\nAs an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.",
-    "ritual": false,
-    "higherlevels": null,
-    "concentration": true,
-    "automation": null
-  },
-  {
-    "name": "Arcane Hand",
-    "level": 5,
-    "school": "V",
-    "classes": "Wizard",
+    "name": "Determinism",
+    "level": 2,
+    "school": "divination",
+    "classes": "Archmage, Ascendant",
     "subclasses": "",
     "casttime": "1 action",
     "range": "120 feet",
     "components": {
       "verbal": true,
       "somatic": true,
-      "material": "an eggshell and a snakeskin glove"
+      "material": "a diamond from a parallel universe"
     },
-    "duration": "Concentration, up to 1 minute",
-    "description": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.\n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space.\n\nWhen you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\n\n_**Clenched Fist.**_ The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n\n_**Forceful Hand.**_ The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n\n_**Grasping Hand.**_ The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n\n_**Interposing Hand.**_ The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.",
+    "duration": "1 minute",
+    "description": "You curse a creature you are aware of within range, altering its fate to determine its future actions. When the target attempts to take its action on each of its turns, it must offer you an alternative action that it is able to take that cannot be the same type of action as the first (Attack action, cast a spell, Dodge action, etc.). You select which action the creature must take between the two options presented. The creature need not tell you what it will do with these actions or how they work, only that it wishes to take them.\n\nAt the end of each of its turns, the creature may attempt a Wisdom saving throw to end the effect. If the creature succeeds on two Wisdom saving throws in this manner, the spell ends.",
     "ritual": false,
-    "higherlevels": "When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.",
-    "concentration": true,
-    "automation": [
-      {
-        "type": "variable",
-        "value": "4",
-        "name": "fist",
-        "higher": {
-          "6": "6",
-          "7": "8",
-          "8": "10",
-          "9": "12"
-        }
-      },
-      {
-        "type": "target",
-        "target": "self",
-        "effects": [
-          {
-            "type": "ieffect",
-            "name": "Clenched Fist",
-            "duration": 10,
-            "effects": "-attack '{{spell + proficiencyBonus}}|{fist}d8 [force]|**Clenched Fist.** The hand strikes one creature or object within 5 feet of it.'",
-            "desc": "The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {{fist}}d8 force damage."
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "text": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.\n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space."
-      }
-    ]
+    "higherlevels": "When you cast this spell as a tier 3 Epic spell, you increase the number of successful Wisdom saving throws the creature must make to end the spell by one, to a total of three.",
+    "concentration": false,
+    "automation": null
+  },
+  {
+    "name": "Dimensional Mastery",
+    "level": 1,
+    "school": "enchantment",
+    "classes": "Archmage, Archon",
+    "subclasses": "",
+    "casttime": "1 action",
+    "range": "Self (60-foot radius)",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a compass that doesn’t point north"
+    },
+    "duration": "10 minutes",
+    "description": "You enchant yourself with a profound mastery over space within a 60-foot radius of you. When you cast the spell and as an action on each of your turns for the duration, you can teleport any number of creatures you can see within the spell’s area to different unoccupied spaces you can see within the spell’s area. An unwilling creature can attempt a Charisma saving throw to prevent this movement.\n\nAdditionally, if a creature you can see within the spell’s area casts a spell or uses a feature that would magically teleport it to a different location, such as a dimension door spell or a conjuration wizard’s Benign Transposition feature, you can use your reaction to force that creature to attempt a Charisma saving throw, preventing the movement on a failure.",
+    "ritual": false,
+    "higherlevels": null,
+    "concentration": false,
+    "automation": null
   },
   {
     "name": "Arcane Lock",

@@ -1,0 +1,51 @@
+<drac2>
+args = &ARGS&
+a,c = argparse(&ARGS&),combat()
+help = args[0].lower() in '?help' if args else True
+dma = "Theo enchants himself with a profound mastery over space within a 60-foot radius of him. Now and as an action on each of his turns for the next ten minutes, he can teleport any number of creatures he can see within the area of effect to different unoccupied spaces he can see within the area of effect. An unwilling creature can attempt a Charisma saving throw to prevent this movement.\n\nAdditionally, if a creature he can see within the area of effect casts a spell or uses a feature that would magically teleport it to a different location, such as a dimension door spell or a conjuration wizard’s Benign Transposition feature, he can use his reaction to force that creature to attempt a Charisma saving throw, preventing the movement on a failure."
+det = "Theo curses a creature he is aware of within 120 feet, altering its fate to determine its future actions. When the target attempts to take its action on each of its turns, it must offer Theo an alternative action that it is able to take that cannot be the same type of action as the first (Attack action, cast a spell, Dodge action, etc.). Theo selects which action the creature must take between the two options presented. The creature need not tell Theo what it will do with these actions or how they work, only that it wishes to take them.\n\nAt the end of each of its turns, the creature may attempt a Wisdom saving throw to end the effect. If the creature succeeds on **two** Wisdom saving throws in this manner, the spell ends."
+
+if help:
+	return f'''embed -title "Really Chrono?" -desc "SMH my head.\n`.theo determinism`\n`.theo dimensional`\n`.theo fists -t Targ1 -t Targ2 etc`" '''
+elif args[0].lower() in 'dimensional mastery':
+	return f'''embed -title "Theo smiles a feral, evil smile, and slowly raises his middle finger" -f "*You can't run from me.*|{dma}"'''
+elif args[0].lower() in 'determinism':
+	return f'''embed -title "Theo scoffs, waving his hand dismissively" -f "*It's cute you think you have free will.*|{det}"'''
+elif args[0].lower() in 'fists of ink':
+	#saveList = []
+	#targets = pargs.get('t') if args.get('t') else None
+	#combatants=[c.get_combatant(x) for x in targets] if c else []
+	if c:
+		damage = vroll("4d10[necrotic]+4d10[cold]")
+		if a.get('t'):
+			dc, out = 20, [f''' -f "Meta|**Damage**:\n{damage}\n**DC**: 20"''']
+			targets, targetArgs = [], {}
+			for targ in a.get('t'):
+				targName, targArgs = (targ.split("|")+[""])[:2]
+				targArgs = argparse(targArgs)
+				if curTarg := c.get_combatant(targName):
+					targets.append(curTarg)
+					a.add_context(curTarg.name, argparse(targArgs))
+					targetArgs[curTarg.name] = targArgs
+				elif curTarg := c.get_group(targName):
+					for gTarg in curTarg.combatants:
+						targets.append(gTarg)
+						a.add_context(gTarg.name, argparse(targArgs))
+						targetArgs[gTarg.name] = targArgs
+			for target in targets:
+				targName = target.name
+				targBonus = targetArgs[targName].get('sb')
+				dice = target.saves.get("str").d20(targetArgs[targName].adv(boolwise=True, custom={'adv': 'sadv', 'dis': 'sdis'}))
+				saveRoll = vroll(f'{dice} {"+"+"+".join(targBonus) if targBonus else ""}')
+				out.append(f''' -f "{targName}|**STR Save:** {saveRoll}; {['Failure!', target.damage(damage.consolidated()), target.add_effect('Incapacitated - Pulled Into the Void ','',1,end=True)][0] if saveRoll.total<dc else 'Success!'} \n {f"""**Effect:** {target.get_effect('Incapacitated - Pulled Into the Void')}""" if saveRoll.total<dc else ''} \n {f"""**{targName}:** {target.hp_str()}""" if saveRoll.total<dc else ''}"''')
+			return f'''embed -title "The Fists of Ink reach out!" {' '.join(out)} -f "Fists of Ink|Each inky hand may target one creature within 90 ft of it, which must make a strength saving throw or be pulled into the void. On a failure, the target takes 4d10 necrotic damage + 4d10 cold damage, and is pulled into the void and paralyzed until the end of the target's next turn."'''
+		else:
+			return f'''embed -title "The Fists of Ink reach out!" -f "Meta|**Damage**:{damage}\n**DC**:20\n*No Targets Specified*" -f "Fists of Ink|Each inky hand may target one creature within 90 ft of it, which must make a strength saving throw or be pulled into the void. On a failure, the target takes 4d10 necrotic damage + 4d10 cold damage, and is pulled into the void and paralyzed until the end of the target's next turn." '''
+	else:
+		return f'''embed -title "Channel not in comabat!" -f "Can't apply effects out of combat" '''
+else: 
+	return f'''embed -title "Really Chrono?" -desc "SMH my head." '''
+</drac2>
+-f ":yes:"
+-thumb https://cdn.discordapp.com/attachments/892551848337219624/895060161725595648/image0.jpg
+-footer "You're fucked."

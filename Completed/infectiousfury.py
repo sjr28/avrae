@@ -10,6 +10,7 @@ hdg = "Beast" in subclass and BarbarianLevel>9
 if not hdg:
 	return f'''embed -title "{name} isn't the right level to use Infectious Fury!" -desc "make sure you're up to date on `.level`"'''
 
+#if character().get_cc(cc)<1:
 elif character().get_cc(cc)<1:
 	return f'''embed -title "{name} has no more {cc} remaining!" -desc "Sleep it off, champ." '''
 
@@ -43,7 +44,7 @@ elif "damage" in &ARGS&:
 		totaldmg = 0 if didSave else damage['total']
 		target.modify_hp(-totaldmg)
 	character().mod_cc(cc, -1)
-	return f'''embed -title "{name} strikes with {cc}!" -f "Meta|**DC**: {dc}" -f "**{target.name}**|**WIS Save**: {save}; {savestatus}\n {damage['damage'] if not didSave else 'No Damage!'}"'''
+	return f'''embed -title "{name} strikes with {cc}!" -f "Meta|**DC**: {dc}" -f "**{target.name}**|**WIS Save**: {save}; {savestatus}\n {damage['damage'] if not didSave else 'No Damage!'}\n{target.name}: {target.hp_str()}"'''
 
 else:
 	return f'''embed -title "{name} ponders the meaning of their fury" -f "{cc}|At 10th level, when you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):\n-The target must use its reaction to make a melee attack against another creature of your choice that you can see.\n-Target takes 2d12 psychic damage.\nYou can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest." '''
